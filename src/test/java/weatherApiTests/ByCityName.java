@@ -1,33 +1,26 @@
 package weatherApiTests;
 
-import Utils.*;
-import io.restassured.http.ContentType;
+import static io.restassured.RestAssured.*;
+import Utils.EndPoints;
+import static org.hamcrest.Matchers.*;
 import org.testng.annotations.*;
-import io.restassured.response.Response;
-import io.restassured.path.json.JsonPath;
 
 public class ByCityName {
 
-    private Response res = null; //Response
-    private JsonPath jp = null;
-
-    @BeforeTest
-    public void setup(){
-        RestUtil.setBaseURI("https://api.openweathermap.org");
-        RestUtil.setBasePath("data/2.5/weather?=");
-        RestUtil.path = "London";
-        RestUtil.setContentType(ContentType.JSON);
-    }
+    EndPoints ed = new EndPoints();
 
     @Test
-    public void T01_StatusCodeTest() {
-        HelperMethods.checkStatusIs200(res);
+    public void t01() {
+        given().spec(ed.getRequestSpec()
+                    .addParam("q", "London")
+                    .addParam("APPID","0b4a9150ecd5efe7c0d8afa2a8d1629e")
+                    .build())
+                .when()
+                .get()
+                .then()
+                .statusCode(200)
+                .body("name", equalTo("London"));
     }
 
-    @AfterTest
-    public void afterTest (){
-        RestUtil.resetBaseURI();
-        RestUtil.resetBasePath();
-    }
 
 }
