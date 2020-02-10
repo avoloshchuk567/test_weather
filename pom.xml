@@ -9,42 +9,52 @@
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <seleniumJavaVersion>3.141.59</seleniumJavaVersion>
+        <restAssuredAllVersion>4.2.0</restAssuredAllVersion>
+        <jsonSchemaValidatorVersion>4.2.0</jsonSchemaValidatorVersion>
+        <testngVersion>7.1.0</testngVersion>
+        <hamcrestAllVersion>1.3</hamcrestAllVersion>
+        <restAssuredVersion>4.2.0</restAssuredVersion>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
+            <version>${seleniumJavaVersion}</version>
         </dependency>
 
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured-all</artifactId>
-            <version>4.2.0</version>
+            <version>${restAssuredAllVersion}</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>json-schema-validator</artifactId>
-            <version>4.2.0</version>
+            <version>${jsonSchemaValidatorVersion}</version>
         </dependency>
 
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.1.0</version>
+            <version>${testngVersion}</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-all</artifactId>
-            <version>1.3</version>
+            <version>${hamcrestAllVersion}</version>
         </dependency>
+
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>4.2.0</version>
+            <version>${restAssuredVersion}</version>
             <scope>test</scope>
         </dependency>
 
