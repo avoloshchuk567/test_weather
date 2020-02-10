@@ -70,31 +70,59 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
-
-
-            <!--<profiles>
-                <profile>
-                    <id>AllApiTests</id>
-                    <activation>
-                        <activeByDefault>true</activeByDefault>
-                    </activation>-->
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.19.1</version>
-                <configuration>
-                    <testFailureIgnore>true</testFailureIgnore>
-                    <excludes>
-                        <exclude>ByCityName.class</exclude>
-                    </excludes>
-                    <!--<includes>
-                        <include>**/AllApiTest.class</include>
-                    </includes>-->
-                </configuration>
-            </plugin>
         </plugins>
     </build>
-    <!--        </profile>-->
-    <!--    </profiles>-->
+
+    <profiles>
+        <profile>
+            <id>IgnoreUnitTestsFailure</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>2.19.1</version>
+                        <configuration>
+                            <testFailureIgnore>true</testFailureIgnore>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>SkipUnitTests</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>2.19.1</version>
+                        <configuration>
+                            <skipTests>true</skipTests>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>SkipByCityNameTest</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>2.19.1</version>
+                        <configuration>
+                            <excludes>
+                                <exclude>**/ByCityName*.java</exclude>
+                            </excludes>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>
