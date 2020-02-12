@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="openWeatherTesting">
+    <test name="authenticationTest">
+        <classes>
+            <class name="weatherApiTests.AuthKeyTest"/>
+        </classes>
+    </test>
+    <test name="requestParametersTest">
+        <classes>
+            <class name="weatherApiTests.RequestParametersTest"/>
+        </classes>
+    </test>
+    <test name="responseParametersTest">
+        <classes>
+            <class name="weatherApiTests.ResponseParametersTest"/>
+        </classes>
+    </test>
+</suite>
