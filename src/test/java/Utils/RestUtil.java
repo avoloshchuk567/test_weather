@@ -1,6 +1,6 @@
 package Utils;
 
-//import io.restassured.RestAssured;
+//import io.restassured.RestAssured; // todo: not needed import
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -16,7 +16,8 @@ public class RestUtil {
     public static void resetBaseURI(){ baseURI = null; }
     public static void resetBasePath(){ basePath = null; }
     public static void setContentType(ContentType Type){ given().contentType(Type); }
-    public static void createQueryPath(String city) {
+    public static void createQueryPath(String city) // todo: might be a good idea to make it more descriptive to rename it to createQueryPathByCity
+    {
         path = city;
     }
     public static Response getResponse() {return get(path);}
