@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeTest;
 public final class EndPoints {
 
     @BeforeTest
-    public RequestSpecBuilder getRequestSpec () {
+    public RequestSpecBuilder getBasePath() {
         return new RequestSpecBuilder()
                 .setBaseUri("https://api.openweathermap.org")
                 .setBasePath("data/2.5/weather")
