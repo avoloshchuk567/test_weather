@@ -1,7 +1,3 @@
 # Default ignored files
-/.idea/workspace.xml
-/.idea/modules.xml
-/.idea/test_weather.iml
-/.idea/vcs.xml
-com.testWeather.iml
-/.idea/
+/.idea/*
+/com.testWeather.iml

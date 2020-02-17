@@ -2,8 +2,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="openWeatherTesting">
-    <parameter name="statusCodeUnath" value="401"/>
-    <parameter name="statusCodeOk" value="200"/>
     <test name="authenticationTest">
         <groups>
             <run>
