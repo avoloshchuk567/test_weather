@@ -1,6 +1,7 @@
 package weatherApiTests;
 
 import Utils.EndPoints;
+import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -29,11 +30,12 @@ public class ResponseParametersTest {
         };
     }
 
-    @Test(dataProvider = "responseParameterToCheck")
+    @Test(dataProvider = "responseParameterToCheck", description = "Response test: Test of parameters returned in response")
+    @Description("Test description: check required parameters in response")
     public void responseCoordinatesTest(String requestId, String requestIdValue,
                                         String responseParam, String responseParamExpectedValue,
                                         String testDataDescription) {
-        LOG.debug("Verification of the parameters in response");
+        LOG.info("Verification of the parameters in response");
         Response wholeResponse = (given().spec(endPoint1.getBasePath()
                 .addParam(requestId, requestIdValue)
                 .addParam(AUTHAPPID, APIKEY)

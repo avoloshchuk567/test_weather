@@ -1,6 +1,7 @@
 package weatherApiTests;
 
 import Utils.EndPoints;
+import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -14,7 +15,7 @@ import static org.hamcrest.Matchers.*;
 public class AuthKeyTest {
     private EndPoints endPoint1 = new EndPoints();
 
-    private static final Logger LOG = LoggerFactory.getLogger(AuthKeyTest.class);
+    private static final Logger LOG = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.testWeather.AuthKeyTest");
     private static int expectedStatusCodeUnath = 401;
     private static int expectedStatusCodeOk = 200;
     private static String requestParamBy = "q";
@@ -22,9 +23,10 @@ public class AuthKeyTest {
     private static String requestParamAuth = "APPID";
 
 
-    @Test(groups = {"functional"})
+    @Test(groups = {"functional"}, description = "Auth test: API call test without API Key parameter in request")
+    @Description("Test Description: checked that 401 error is returned to API calls without API key")
     public void withoutAuthParam() {
-        LOG.debug("Authentication without API Key tests");
+        LOG.info("Authentication without API Key tests");
         given().spec(endPoint1.getBasePath()
                 .addParam(requestParamBy, requestParamByValue)
                 .build())
@@ -47,9 +49,10 @@ public class AuthKeyTest {
         };
     }
 
-    @Test(dataProvider = "requestData", groups = {"smoke", "functional"}, dependsOnMethods = {"withoutAuthParam"})
+    @Test(dataProvider = "requestData", groups = {"smoke", "functional"}, dependsOnMethods = {"withoutAuthParam"},description = "Auth test: API call tests with invalid and valid API Keys in request")
+    @Description("Test description: check that 200 status code is returned only if API Key is correct")
     public void testAuthKey(String appId, int expectedStatusCode, String testDataDescription) {
-        LOG.debug("Authentication with incorrect and valid API Keys");
+        LOG.info("Authentication with incorrect and valid API Keys");
         Response wholeResponse = given().spec(endPoint1.getBasePath()
                 .addParam(requestParamBy, requestParamByValue)
                 .addParam(requestParamAuth, appId)
@@ -57,7 +60,7 @@ public class AuthKeyTest {
                 .when()
                 .get();
         LOG.debug("Test: {}, expected value: {} = {} ", testDataDescription, "expectedStatus code", expectedStatusCode);
-        LOG.debug("Request address: {}", wholeResponse.getHeaders().getValue("X-Cache-Key"));
+        LOG.debug("Request address: {} \n", wholeResponse.getHeaders().getValue("X-Cache-Key"));
         assertThat(wholeResponse.getStatusCode(), equalTo(expectedStatusCode));
     }
 }

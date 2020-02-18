@@ -1,6 +1,7 @@
 package weatherApiTests;
 
 import Utils.EndPoints;
+import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import org.testng.annotations.*;
 import org.slf4j.Logger;
@@ -35,11 +36,12 @@ public class RequestParametersTest {
     }
 
 
-    @Test(dataProvider = "cityStateID", groups = "smoke")
+    @Test(dataProvider = "cityStateID", groups = "smoke", description = "Request test: Request is based on city, city&stats, id")
+    @Description("Test Description: send request based on city, city&stats, id")
     public void byCityOrCityStateOrId(String requestParam, String requestParamValue, String responseCity,
                                       String responseCityValue, String responseState, String responseStateValue,
                                       String testDataDescription) {
-        LOG.debug("Test of request parameters by city, city/state, id");
+        LOG.info("Test of request parameters by city, city/state, id");
         Response wholeResponse = given().spec(endPoint1.getBasePath()
                 .addParam(requestParam, requestParamValue)
                 .addParam(AUTHAPPID, APIKEY)
@@ -65,11 +67,12 @@ public class RequestParametersTest {
         };
     }
 
-    @Test(dataProvider = "coordinates", groups = "functional")
+    @Test(dataProvider = "coordinates", groups = "functional", description = "Request test: Request is based on coordinates")
+    @Description("Test description: send request based on coordinates")
     public void byCoordinates(String requestLon, String requestLonVal, String requestLat, String requestLatVal,
                               String responseCity, String responseCityValue, String responseState, String responseStateValue,
                               String testDataDescription) {
-        LOG.debug("Test of request parameters by coordinates");
+        LOG.info("Test of request parameters by coordinates");
         Response wholeResponse = given().spec(endPoint1.getBasePath()
                 .addParam(requestLon, requestLonVal)
                 .addParam(requestLat, requestLatVal)
