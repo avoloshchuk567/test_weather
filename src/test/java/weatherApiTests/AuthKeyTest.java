@@ -1,16 +1,18 @@
 package weatherApiTests;
 
-import Utils.EndPoints;
-import io.qameta.allure.Description;
+import io.qameta.allure.*;
+import utils.EndPoints;
 import io.restassured.response.Response;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
+
+@Epic("API tests for testWeather project")
+@Feature("Authentication verification")
 
 public class AuthKeyTest {
     private EndPoints endPoint1 = new EndPoints();
@@ -23,8 +25,9 @@ public class AuthKeyTest {
     private static String requestParamAuth = "APPID";
 
 
-    @Test(groups = {"functional"}, description = "Auth test: API call test without API Key parameter in request")
+    @Test(description = "Auth test: API call test without API Key parameter in request")
     @Description("Test Description: checked that 401 error is returned to API calls without API key")
+    @Story("401 error is returned to API calls without API key")
     public void withoutAuthParam() {
         LOG.info("Authentication without API Key tests");
         given().spec(endPoint1.getBasePath()
@@ -49,8 +52,9 @@ public class AuthKeyTest {
         };
     }
 
-    @Test(dataProvider = "requestData", groups = {"smoke", "functional"}, dependsOnMethods = {"withoutAuthParam"},description = "Auth test: API call tests with invalid and valid API Keys in request")
-    @Description("Test description: check that 200 status code is returned only if API Key is correct")
+    @Test(dataProvider = "requestData", dependsOnMethods = {"withoutAuthParam"}, description = "Auth test: API call tests with invalid and valid API Keys in request")
+    @Description("Test description: check that {expectedStatusCode} status code is returned for API Key = {appId}")
+    @Story("200 status code is returned only if API Key is correct")
     public void testAuthKey(String appId, int expectedStatusCode, String testDataDescription) {
         LOG.info("Authentication with incorrect and valid API Keys");
         Response wholeResponse = given().spec(endPoint1.getBasePath()

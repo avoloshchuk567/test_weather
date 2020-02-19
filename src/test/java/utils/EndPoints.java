@@ -1,8 +1,8 @@
-package Utils;
+package utils;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
 
 public final class EndPoints {
 

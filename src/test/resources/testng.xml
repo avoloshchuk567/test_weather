@@ -3,21 +3,11 @@
 
 <suite name="openWeatherTesting">
     <test name="authenticationTest">
-        <groups>
-            <run>
-                <include name="smoke"/>
-            </run>
-        </groups>
         <classes>
             <class name="weatherApiTests.AuthKeyTest"/>
         </classes>
     </test>
     <test name="requestParametersTest">
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="functional"/>-->
-<!--            </run>-->
-<!--        </groups>-->
         <classes>
             <class name="weatherApiTests.RequestParametersTest"/>
         </classes>

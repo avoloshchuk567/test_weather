@@ -1,16 +1,18 @@
 package weatherApiTests;
 
-import Utils.EndPoints;
-import io.qameta.allure.Description;
+import io.qameta.allure.*;
+import utils.EndPoints;
 import io.restassured.response.Response;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
+
+@Epic("API tests for testWeather project")
+@Feature("Response parameters verification")
 
 public class ResponseParametersTest {
     static final Logger LOG = LoggerFactory.getLogger(ResponseParametersTest.class);
@@ -31,7 +33,8 @@ public class ResponseParametersTest {
     }
 
     @Test(dataProvider = "responseParameterToCheck", description = "Response test: Test of parameters returned in response")
-    @Description("Test description: check required parameters in response")
+    @Description("Test description: {testDataDescription} {responseParam} = {responseParamExpectedValue}")
+    @Story("Parameters returned in response are correct")
     public void responseCoordinatesTest(String requestId, String requestIdValue,
                                         String responseParam, String responseParamExpectedValue,
                                         String testDataDescription) {
