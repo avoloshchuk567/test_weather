@@ -2,10 +2,12 @@ package Utils;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
+import org.testng.annotations.BeforeTest;
 
 public final class EndPoints {
 
-    public RequestSpecBuilder getRequestSpec () {
+    @BeforeTest
+    public RequestSpecBuilder getBasePath() {
         return new RequestSpecBuilder()
                 .setBaseUri("https://api.openweathermap.org")
                 .setBasePath("data/2.5/weather")
