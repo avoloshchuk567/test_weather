@@ -1,0 +1,251 @@
+[ {
+  "uid" : "224cdf0957688194",
+  "name" : "Response test: Test of parameters returned in response",
+  "time" : {
+    "start" : 1582099838377,
+    "stop" : 1582099838719,
+    "duration" : 342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1d052b707626600",
+  "name" : "Request test: Request is based on coordinates",
+  "time" : {
+    "start" : 1582041397906,
+    "stop" : 1582041398693,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1de2cccb602a29c6",
+  "name" : "Request test: Request is based on city, city&stats, id",
+  "time" : {
+    "start" : 1582099835437,
+    "stop" : 1582099835764,
+    "duration" : 327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f797466fc4676bfb",
+  "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+  "time" : {
+    "start" : 1582099831818,
+    "stop" : 1582099832172,
+    "duration" : 354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e02723d4885de171",
+  "name" : "Request test: Request is based on city, city&stats, id",
+  "time" : {
+    "start" : 1582041396770,
+    "stop" : 1582041397110,
+    "duration" : 340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e2f4bfe905a8adc",
+  "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+  "time" : {
+    "start" : 1582099832178,
+    "stop" : 1582099832494,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "538c10094068f806",
+  "name" : "Response test: Test of parameters returned in response",
+  "time" : {
+    "start" : 1582099838040,
+    "stop" : 1582099838374,
+    "duration" : 334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a60f99366072a866",
+  "name" : "Request test: Request is based on city, city&stats, id",
+  "time" : {
+    "start" : 1582099835767,
+    "stop" : 1582099836182,
+    "duration" : 415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dab721eaa7b1f60",
+  "name" : "Request test: Request is based on city, city&stats, id",
+  "time" : {
+    "start" : 1582099834743,
+    "stop" : 1582099835109,
+    "duration" : 366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "135b4dd6fe2e1d71",
+  "name" : "Request test: Request is based on city, city&stats, id",
+  "time" : {
+    "start" : 1582099833993,
+    "stop" : 1582099834384,
+    "duration" : 391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bf51170da1b8ee6",
+  "name" : "Request test: Request is based on city, city&stats, id",
+  "time" : {
+    "start" : 1582099836186,
+    "stop" : 1582099836626,
+    "duration" : 440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "331c636e33726cdb",
+  "name" : "Request test: Request is based on city, city&stats, id",
+  "time" : {
+    "start" : 1582099834387,
+    "stop" : 1582099834736,
+    "duration" : 349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f3a45f91ad1d9a5",
+  "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+  "time" : {
+    "start" : 1582099832498,
+    "stop" : 1582099832809,
+    "duration" : 311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29fb164b6d98b7",
+  "name" : "Auth test: API call test without API Key parameter in request",
+  "time" : {
+    "start" : 1582099829609,
+    "stop" : 1582099831711,
+    "duration" : 2102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "206101b73b004001",
+  "name" : "Request test: Request is based on city, city&stats, id",
+  "time" : {
+    "start" : 1582099835112,
+    "stop" : 1582099835433,
+    "duration" : 321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "904b974bd73cb45e",
+  "name" : "Request test: Request is based on city, city&stats, id",
+  "time" : {
+    "start" : 1582099836628,
+    "stop" : 1582099836966,
+    "duration" : 338
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "38505a47ac7dd35d",
+  "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+  "time" : {
+    "start" : 1582099832815,
+    "stop" : 1582099833136,
+    "duration" : 321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c4dd8c06b740d13",
+  "name" : "Request test: Request is based on coordinates",
+  "time" : {
+    "start" : 1582099836969,
+    "stop" : 1582099837313,
+    "duration" : 344
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a690c89796f6cb5",
+  "name" : "Request test: Request is based on city, city&stats, id",
+  "time" : {
+    "start" : 1582041392030,
+    "stop" : 1582041392888,
+    "duration" : 858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d12ce61d4ef7042",
+  "name" : "Response test: Test of parameters returned in response",
+  "time" : {
+    "start" : 1582099839366,
+    "stop" : 1582099839704,
+    "duration" : 338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7829b8e708b5dd17",
+  "name" : "Response test: Test of parameters returned in response",
+  "time" : {
+    "start" : 1582099839055,
+    "stop" : 1582099839362,
+    "duration" : 307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "257fcb9cdee561f5",
+  "name" : "Request test: Request is based on city, city&stats, id",
+  "time" : {
+    "start" : 1582099833197,
+    "stop" : 1582099833983,
+    "duration" : 786
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "437ba117e547ee0d",
+  "name" : "Request test: Request is based on coordinates",
+  "time" : {
+    "start" : 1582099837317,
+    "stop" : 1582099837657,
+    "duration" : 340
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea047bd83f787ce1",
+  "name" : "Response test: Test of parameters returned in response",
+  "time" : {
+    "start" : 1582099838723,
+    "stop" : 1582099839052,
+    "duration" : 329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7013f7e0c9b18d4e",
+  "name" : "Request test: Request is based on coordinates",
+  "time" : {
+    "start" : 1582099837664,
+    "stop" : 1582099838023,
+    "duration" : 359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

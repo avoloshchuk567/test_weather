@@ -1,0 +1,1281 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "C5522",
+    "children" : [ {
+      "name" : "61631@C5522.main(1)",
+      "children" : [ {
+        "name" : "byCoordinates",
+        "uid" : "b3a5af08133a93c7",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031344535,
+          "stop" : 1582031344946,
+          "duration" : 411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "6.84229", "lat", "46.266579", "name", "Chatel", "sys.country", "FR", "byCoordinatesRequest" ]
+      }, {
+        "name" : "testAuthKey",
+        "uid" : "27ec2c5abf0361e6",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031342659,
+          "stop" : 1582031343255,
+          "duration" : 596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150dfd5e34fc0d8afa2a8d1629f", "401", "verifyIncorrectAppIdFull" ]
+      }, {
+        "name" : "testAuthKey",
+        "uid" : "5088f9d0aa575173",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031343259,
+          "stop" : 1582031343697,
+          "duration" : 438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150ecd5efe7c0d8afa2a8d1629e", "200", "verifyValidAppId" ]
+      }, {
+        "name" : "responseCoordinatesTest",
+        "uid" : "ce5d1c686217eb9c",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031345786,
+          "stop" : 1582031346117,
+          "duration" : 331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lat", "31.02", "verifyLatitudeIsCorrect" ]
+      }, {
+        "name" : "byCoordinates",
+        "uid" : "ae256c6db49d23bd",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031344952,
+          "stop" : 1582031345414,
+          "duration" : 462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "-2.72662", "lat", "40.625301", "name", "Duron", "sys.country", "ES", "byCoordinatesRequest" ]
+      }, {
+        "name" : "responseCoordinatesTest",
+        "uid" : "d4a71c6c48a6717c",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031346451,
+          "stop" : 1582031346759,
+          "duration" : 308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "name", "Dongchong", "VerifyCityIsCorrect" ]
+      }, {
+        "name" : "responseCoordinatesTest",
+        "uid" : "54db18f9714ec51f",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031345424,
+          "stop" : 1582031345783,
+          "duration" : 359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lon", "119.38", "verifyLongitudeIsCorrect" ]
+      }, {
+        "name" : "testAuthKey",
+        "uid" : "23ffa4ab3c26053c",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031342249,
+          "stop" : 1582031342655,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4t5gdg534df453", "401", "verifyIncorrectAppIdShorl" ]
+      }, {
+        "name" : "responseCoordinatesTest",
+        "uid" : "f91637316f4ddbb7",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031346119,
+          "stop" : 1582031346449,
+          "duration" : 330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "id", "1552494", "verifyIdIsCorrect" ]
+      }, {
+        "name" : "responseCoordinatesTest",
+        "uid" : "15bba2680d3320a1",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031346762,
+          "stop" : 1582031347085,
+          "duration" : 323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "sys.country", "CN", "verifyCountryIsCorrect" ]
+      }, {
+        "name" : "testAuthKey",
+        "uid" : "43b2382a94372c22",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031341824,
+          "stop" : 1582031342243,
+          "duration" : 419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "null", "401", "verifyNullAppId" ]
+      }, {
+        "name" : "byCoordinates",
+        "uid" : "8230695eed70c5cb",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031343729,
+          "stop" : 1582031344532,
+          "duration" : 803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "7.88836", "lat", "43.85297", "name", "Pompeiana", "sys.country", "IT", "byCoordinatesRequest" ]
+      }, {
+        "name" : "withoutAuthParam",
+        "uid" : "1a3d7b293e37cb23",
+        "parentUid" : "e96fe79491119dd27b843cfb796784ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582031339736,
+          "stop" : 1582031341736,
+          "duration" : 2000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e96fe79491119dd27b843cfb796784ef"
+    }, {
+      "name" : "76067@C5522.main(1)",
+      "children" : [ {
+        "name" : "responseCoordinatesTest",
+        "uid" : "fee3251d0f9cd408",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038063357,
+          "stop" : 1582038064419,
+          "duration" : 1062
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "name", "Dongchong", "VerifyCityIsCorrect" ]
+      }, {
+        "name" : "byCoordinates",
+        "uid" : "a9d8d7ac17ea584c",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038060993,
+          "stop" : 1582038061418,
+          "duration" : 425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "-2.72662", "lat", "40.625301", "name", "Duron", "sys.country", "ES", "byCoordinatesRequest" ]
+      }, {
+        "name" : "byCoordinates",
+        "uid" : "9e70bb37e44f867c",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038060410,
+          "stop" : 1582038060990,
+          "duration" : 580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "6.84229", "lat", "46.266579", "name", "Chatel", "sys.country", "FR", "byCoordinatesRequest" ]
+      }, {
+        "name" : "testAuthKey",
+        "uid" : "6d7ccae9c9c9e7b8",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038057354,
+          "stop" : 1582038057761,
+          "duration" : 407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "null", "401", "verifyNullAppId" ]
+      }, {
+        "name" : "responseCoordinatesTest",
+        "uid" : "a04b40bfa373b1d9",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038061912,
+          "stop" : 1582038062647,
+          "duration" : 735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lat", "31.02", "verifyLatitudeIsCorrect" ]
+      }, {
+        "name" : "responseCoordinatesTest",
+        "uid" : "6340f474180083ab",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038062649,
+          "stop" : 1582038063355,
+          "duration" : 706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "id", "1552494", "verifyIdIsCorrect" ]
+      }, {
+        "name" : "responseCoordinatesTest",
+        "uid" : "da06eca05704589e",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038064422,
+          "stop" : 1582038065787,
+          "duration" : 1365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "sys.country", "CN", "verifyCountryIsCorrect" ]
+      }, {
+        "name" : "testAuthKey",
+        "uid" : "573072b2426ae28a",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038057765,
+          "stop" : 1582038058190,
+          "duration" : 425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4t5gdg534df453", "401", "verifyIncorrectAppIdShorl" ]
+      }, {
+        "name" : "responseCoordinatesTest",
+        "uid" : "8ed1ff6a7cd64368",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038061427,
+          "stop" : 1582038061909,
+          "duration" : 482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lon", "119.38", "verifyLongitudeIsCorrect" ]
+      }, {
+        "name" : "withoutAuthParam",
+        "uid" : "e781626444c0a853",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038055148,
+          "stop" : 1582038057253,
+          "duration" : 2105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testAuthKey",
+        "uid" : "bafad005fd061d1",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038058656,
+          "stop" : 1582038059529,
+          "duration" : 873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150ecd5efe7c0d8afa2a8d1629e", "200", "verifyValidAppId" ]
+      }, {
+        "name" : "testAuthKey",
+        "uid" : "38b65eb4379d66c6",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038058194,
+          "stop" : 1582038058652,
+          "duration" : 458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150dfd5e34fc0d8afa2a8d1629f", "401", "verifyIncorrectAppIdFull" ]
+      }, {
+        "name" : "byCoordinates",
+        "uid" : "a07390f010c5fffb",
+        "parentUid" : "072d3acb75af78e272d6bba29d76551f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582038059561,
+          "stop" : 1582038060404,
+          "duration" : 843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "7.88836", "lat", "43.85297", "name", "Pompeiana", "sys.country", "IT", "byCoordinatesRequest" ]
+      } ],
+      "uid" : "072d3acb75af78e272d6bba29d76551f"
+    }, {
+      "name" : "81947@C5522.main(1)",
+      "children" : [ {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "c5abdfbcb54e0d00",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041390648,
+          "stop" : 1582041391075,
+          "duration" : 427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4t5gdg534df453", "401", "verifyIncorrectAppIdShorl" ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "8574898f8fb017d8",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041397113,
+          "stop" : 1582041397903,
+          "duration" : 790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "7.88836", "lat", "43.85297", "name", "Pompeiana", "sys.country", "IT", "byCoordinatesRequest" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "39b79af7b9df66cb",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041400316,
+          "stop" : 1582041400722,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lat", "31.02", "verifyLatitudeIsCorrect" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "23599cd6cdd9ea83",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041400724,
+          "stop" : 1582041401075,
+          "duration" : 351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "id", "1552494", "verifyIdIsCorrect" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "abb06740ba158143",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041401436,
+          "stop" : 1582041401779,
+          "duration" : 343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "sys.country", "CN", "verifyCountryIsCorrect" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "2035c32b79438564",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041395628,
+          "stop" : 1582041396013,
+          "duration" : 385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "Kathmandu,np", "name", "Kathmandu", "sys.country", "NP", "ByCityStateRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "430c3448c6e5615d",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041394612,
+          "stop" : 1582041395123,
+          "duration" : 511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "Gurzuf,ua", "name", "Gurzuf", "sys.country", "UA", "ByCityStateRequest" ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "f93f064e12cdff8f",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041398698,
+          "stop" : 1582041399469,
+          "duration" : 771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "-2.72662", "lat", "40.625301", "name", "Duron", "sys.country", "ES", "byCoordinatesRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "f4077d662ee9242",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041394227,
+          "stop" : 1582041394610,
+          "duration" : 383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "Gurzuf", "name", "Gurzuf", "sys.country", "UA", "byCityRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "4d244c151eae18d0",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041396016,
+          "stop" : 1582041396390,
+          "duration" : 374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "4294512", "name", "Henderson", "sys.country", "US", "byIdRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "76348f8ca1f36e92",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041395126,
+          "stop" : 1582041395625,
+          "duration" : 499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "Kathmandu", "name", "Kathmandu", "sys.country", "NP", "ByCityRequest" ]
+      }, {
+        "name" : "Auth test: API call test without API Key parameter in request",
+        "uid" : "abf6a31117ed6db2",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041388106,
+          "stop" : 1582041390098,
+          "duration" : 1992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "a1d052b707626600",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041397906,
+          "stop" : 1582041398693,
+          "duration" : 787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "6.84229", "lat", "46.266579", "name", "Chatel", "sys.country", "FR", "byCoordinatesRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "119c3c3894045cef",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041392892,
+          "stop" : 1582041394222,
+          "duration" : 1330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "London,uk", "name", "London", "sys.country", "GB", "ByCityStateRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "a690c89796f6cb5",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041392030,
+          "stop" : 1582041392888,
+          "duration" : 858
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "London", "name", "London", "sys.country", "GB", "byCityRequest" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "8348740420ca690d",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041391078,
+          "stop" : 1582041391479,
+          "duration" : 401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150dfd5e34fc0d8afa2a8d1629f", "401", "verifyIncorrectAppIdFull" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "60684d748b1e7efa",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041401078,
+          "stop" : 1582041401433,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "name", "Dongchong", "VerifyCityIsCorrect" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "969c43c16a22d324",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041399480,
+          "stop" : 1582041400314,
+          "duration" : 834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lon", "119.38", "verifyLongitudeIsCorrect" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "ad3d0af920f1c847",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041391482,
+          "stop" : 1582041392000,
+          "duration" : 518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150ecd5efe7c0d8afa2a8d1629e", "200", "verifyValidAppId" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "db53b97650efb53d",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041390181,
+          "stop" : 1582041390644,
+          "duration" : 463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "null", "401", "verifyNullAppId" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "e02723d4885de171",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041396770,
+          "stop" : 1582041397110,
+          "duration" : 340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "6074096", "name", "Millertown", "sys.country", "CA", "byIdRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "95b93bde0b227cb3",
+        "parentUid" : "d3ba6bac841f067dce3a57a4dd6c2914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041396393,
+          "stop" : 1582041396767,
+          "duration" : 374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "2166166", "name", "Frankford", "sys.country", "AU", "byIdRequest" ]
+      } ],
+      "uid" : "d3ba6bac841f067dce3a57a4dd6c2914"
+    }, {
+      "name" : "89141@C5522.main(1)",
+      "children" : [ {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "7829b8e708b5dd17",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099839055,
+          "stop" : 1582099839362,
+          "duration" : 307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "name", "Dongchong", "VerifyCityIsCorrect" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "224cdf0957688194",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099838377,
+          "stop" : 1582099838719,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lat", "31.02", "verifyLatitudeIsCorrect" ]
+      }, {
+        "name" : "Auth test: API call test without API Key parameter in request",
+        "uid" : "29fb164b6d98b7",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099829609,
+          "stop" : 1582099831711,
+          "duration" : 2102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "4d12ce61d4ef7042",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099839366,
+          "stop" : 1582099839704,
+          "duration" : 338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "sys.country", "CN", "verifyCountryIsCorrect" ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "7013f7e0c9b18d4e",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099837664,
+          "stop" : 1582099838023,
+          "duration" : 359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "-2.72662", "lat", "40.625301", "name", "Duron", "sys.country", "ES", "byCoordinatesRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "904b974bd73cb45e",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582099836628,
+          "stop" : 1582099836966,
+          "duration" : 338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "6074096", "name", "Millertown", "sys.country", "UA", "byIdRequest" ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "1c4dd8c06b740d13",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099836969,
+          "stop" : 1582099837313,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "7.88836", "lat", "43.85297", "name", "Pompeiana", "sys.country", "IT", "byCoordinatesRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "331c636e33726cdb",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099834387,
+          "stop" : 1582099834736,
+          "duration" : 349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "Gurzuf", "name", "Gurzuf", "sys.country", "UA", "byCityRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "1de2cccb602a29c6",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099835437,
+          "stop" : 1582099835764,
+          "duration" : 327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "Kathmandu,np", "name", "Kathmandu", "sys.country", "NP", "ByCityStateRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "257fcb9cdee561f5",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582099833197,
+          "stop" : 1582099833983,
+          "duration" : 786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "London", "name", "London", "sys.country", "UA", "byCityRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "206101b73b004001",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099835112,
+          "stop" : 1582099835433,
+          "duration" : 321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "Kathmandu", "name", "Kathmandu", "sys.country", "NP", "ByCityRequest" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "38505a47ac7dd35d",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099832815,
+          "stop" : 1582099833136,
+          "duration" : 321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150ecd5efe7c0d8afa2a8d1629e", "200", "verifyValidAppId" ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "437ba117e547ee0d",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582099837317,
+          "stop" : 1582099837657,
+          "duration" : 340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "6.84229", "lat", "46.266579", "name", "Chatels", "sys.country", "FR", "byCoordinatesRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "2dab721eaa7b1f60",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099834743,
+          "stop" : 1582099835109,
+          "duration" : 366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "Gurzuf,ua", "name", "Gurzuf", "sys.country", "UA", "ByCityStateRequest" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "f797466fc4676bfb",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099831818,
+          "stop" : 1582099832172,
+          "duration" : 354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "null", "401", "verifyNullAppId" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "a60f99366072a866",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099835767,
+          "stop" : 1582099836182,
+          "duration" : 415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "4294512", "name", "Henderson", "sys.country", "US", "byIdRequest" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "ea047bd83f787ce1",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099838723,
+          "stop" : 1582099839052,
+          "duration" : 329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "id", "1552494", "verifyIdIsCorrect" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "7f3a45f91ad1d9a5",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099832498,
+          "stop" : 1582099832809,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150dfd5e34fc0d8afa2a8d1629f", "401", "verifyIncorrectAppIdFull" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "9bf51170da1b8ee6",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099836186,
+          "stop" : 1582099836626,
+          "duration" : 440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "2166166", "name", "Frankford", "sys.country", "AU", "byIdRequest" ]
+      }, {
+        "name" : "Request test: Request is based on city, city&stats, id",
+        "uid" : "135b4dd6fe2e1d71",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099833993,
+          "stop" : 1582099834384,
+          "duration" : 391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "q", "London,uk", "name", "London", "sys.country", "GB", "ByCityStateRequest" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "538c10094068f806",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099838040,
+          "stop" : 1582099838374,
+          "duration" : 334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lon", "119.38", "verifyLongitudeIsCorrect" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "4e2f4bfe905a8adc",
+        "parentUid" : "19d57a57be53287889c6cc90b2f3837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582099832178,
+          "stop" : 1582099832494,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4t5gdg534df453", "401", "verifyIncorrectAppIdShorl" ]
+      } ],
+      "uid" : "19d57a57be53287889c6cc90b2f3837f"
+    }, {
+      "name" : "81731@C5522.main(1)",
+      "children" : [ {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "8fe607ae66994930",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041144127,
+          "stop" : 1582041144460,
+          "duration" : 333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150ecd5efe7c0d8afa2a8d1629e", "200", "verifyValidAppId" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "6ae7329a8bf01354",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041146174,
+          "stop" : 1582041146574,
+          "duration" : 400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lon", "119.38", "verifyLongitudeIsCorrect" ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "e8d9cc38fd4acf7f",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041145258,
+          "stop" : 1582041145696,
+          "duration" : 438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "6.84229", "lat", "46.266579", "name", "Chatel", "sys.country", "FR", "byCoordinatesRequest" ]
+      }, {
+        "name" : "Auth test: API call test without API Key parameter in request",
+        "uid" : "2bb5e5180baa5505",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041141015,
+          "stop" : 1582041142979,
+          "duration" : 1964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "23bfbefe9b095c14",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041147673,
+          "stop" : 1582041148091,
+          "duration" : 418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "sys.country", "CN", "verifyCountryIsCorrect" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "f802fb678f821d46",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041146959,
+          "stop" : 1582041147319,
+          "duration" : 360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "id", "1552494", "verifyIdIsCorrect" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "17594dc79035b398",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041143790,
+          "stop" : 1582041144123,
+          "duration" : 333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150dfd5e34fc0d8afa2a8d1629f", "401", "verifyIncorrectAppIdFull" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "95a50413fe3cee96",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041146577,
+          "stop" : 1582041146956,
+          "duration" : 379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lat", "31.02", "verifyLatitudeIsCorrect" ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "932db8c5dfa1e082",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041144492,
+          "stop" : 1582041145254,
+          "duration" : 762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "7.88836", "lat", "43.85297", "name", "Pompeiana", "sys.country", "IT", "byCoordinatesRequest" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "7f7aeae15d5dc7da",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041143075,
+          "stop" : 1582041143456,
+          "duration" : 381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "null", "401", "verifyNullAppId" ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "e260249eaf6b0dad",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041145699,
+          "stop" : 1582041146161,
+          "duration" : 462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "-2.72662", "lat", "40.625301", "name", "Duron", "sys.country", "ES", "byCoordinatesRequest" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "d40450a635a78836",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041143461,
+          "stop" : 1582041143786,
+          "duration" : 325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4t5gdg534df453", "401", "verifyIncorrectAppIdShorl" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "dc92c0b8a4ba6c11",
+        "parentUid" : "3203ab5f55f4877c00ee4b693ded0896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041147321,
+          "stop" : 1582041147671,
+          "duration" : 350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "name", "Dongchong", "VerifyCityIsCorrect" ]
+      } ],
+      "uid" : "3203ab5f55f4877c00ee4b693ded0896"
+    }, {
+      "name" : "81779@C5522.main(1)",
+      "children" : [ {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "938358d07b59a00b",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041180817,
+          "stop" : 1582041181160,
+          "duration" : 343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "null", "401", "verifyNullAppId" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "2c04ed6c506521d0",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041184833,
+          "stop" : 1582041185219,
+          "duration" : 386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "name", "Dongchong", "VerifyCityIsCorrect" ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "3de792ea39aa873e",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041183383,
+          "stop" : 1582041183740,
+          "duration" : 357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "-2.72662", "lat", "40.625301", "name", "Duron", "sys.country", "ES", "byCoordinatesRequest" ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "ee13e9be2005fb2f",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041182976,
+          "stop" : 1582041183380,
+          "duration" : 404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "6.84229", "lat", "46.266579", "name", "Chatel", "sys.country", "FR", "byCoordinatesRequest" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "f0138a7ef917351c",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041185222,
+          "stop" : 1582041185546,
+          "duration" : 324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "sys.country", "CN", "verifyCountryIsCorrect" ]
+      }, {
+        "name" : "Auth test: API call test without API Key parameter in request",
+        "uid" : "5e5399c4b91f72c6",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041178810,
+          "stop" : 1582041180713,
+          "duration" : 1903
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "dcf8288f50f682e1",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041184095,
+          "stop" : 1582041184468,
+          "duration" : 373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lat", "31.02", "verifyLatitudeIsCorrect" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "aebd69431c141c54",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041181886,
+          "stop" : 1582041182233,
+          "duration" : 347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150ecd5efe7c0d8afa2a8d1629e", "200", "verifyValidAppId" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "9605af84bc778ff7",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041183748,
+          "stop" : 1582041184090,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "coord.lon", "119.38", "verifyLongitudeIsCorrect" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "a1fda91ec0987a4f",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041181164,
+          "stop" : 1582041181519,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4t5gdg534df453", "401", "verifyIncorrectAppIdShorl" ]
+      }, {
+        "name" : "Auth test: API call tests with invalid and valid API Keys in request",
+        "uid" : "e592368c31f3827e",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041181522,
+          "stop" : 1582041181882,
+          "duration" : 360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0b4a9150dfd5e34fc0d8afa2a8d1629f", "401", "verifyIncorrectAppIdFull" ]
+      }, {
+        "name" : "Response test: Test of parameters returned in response",
+        "uid" : "5e6f831dc15e70b1",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041184471,
+          "stop" : 1582041184830,
+          "duration" : 359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "id", "1552494", "id", "1552494", "verifyIdIsCorrect" ]
+      }, {
+        "name" : "Request test: Request is based on coordinates",
+        "uid" : "9acfcc8a62b876d6",
+        "parentUid" : "09ff4b32772793fd2a7c1ebe0249e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1582041182265,
+          "stop" : 1582041182973,
+          "duration" : 708
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "lon", "7.88836", "lat", "43.85297", "name", "Pompeiana", "sys.country", "IT", "byCoordinatesRequest" ]
+      } ],
+      "uid" : "09ff4b32772793fd2a7c1ebe0249e29f"
+    } ],
+    "uid" : "27a449385ea8b3078a016465740c5915"
+  } ]
+}
