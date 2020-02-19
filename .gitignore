@@ -1,3 +1,6 @@
 # Default ignored files
+/allure-report/*
 /.idea/*
-/com.testWeather.iml
+/allure-results/*
+com.testWeather.iml
+/target/*

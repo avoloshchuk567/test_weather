@@ -23,7 +23,7 @@ public class RequestParametersTest {
     @DataProvider
     public Object[][] cityStateID() {
         return new Object[][]{
-                {"q", "London", "name", "London", "sys.country", "GB", "byCityRequest"},
+                {"q", "London", "name", "London", "sys.country", "UA", "byCityRequest"},//"GB"
                 {"q", "London,uk", "name", "London", "sys.country", "GB", "ByCityStateRequest"},
                 {"q", "Gurzuf", "name", "Gurzuf", "sys.country", "UA", "byCityRequest"},
                 {"q", "Gurzuf,ua", "name", "Gurzuf", "sys.country", "UA", "ByCityStateRequest"},
@@ -31,7 +31,7 @@ public class RequestParametersTest {
                 {"q", "Kathmandu,np", "name", "Kathmandu", "sys.country", "NP", "ByCityStateRequest"},
                 {"id", "4294512", "name", "Henderson", "sys.country", "US", "byIdRequest"},
                 {"id", "2166166", "name", "Frankford", "sys.country", "AU", "byIdRequest"},
-                {"id", "6074096", "name", "Millertown", "sys.country", "CA", "byIdRequest"},
+                {"id", "6074096", "name", "Millertown", "sys.country", "UA", "byIdRequest"},//"CA"
         };
     }
 
@@ -61,7 +61,7 @@ public class RequestParametersTest {
     public Object[][] coordinates() {
         return new Object[][]{
                 {"lon", "7.88836", "lat", "43.85297", "name", "Pompeiana", "sys.country", "IT", "byCoordinatesRequest"},
-                {"lon", "6.84229", "lat", "46.266579", "name", "Chatel", "sys.country", "FR", "byCoordinatesRequest"},
+                {"lon", "6.84229", "lat", "46.266579", "name", "Chatels", "sys.country", "FR", "byCoordinatesRequest"},//"Chatel"
                 {"lon", "-2.72662", "lat", "40.625301", "name", "Duron", "sys.country", "ES", "byCoordinatesRequest"},
 
         };
