@@ -73,12 +73,7 @@
             <version>${logbackVersion}</version>
             <scope>test</scope>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>io.qameta.allure</groupId>-->
-<!--            <artifactId>allure-maven</artifactId>-->
-<!--            <version>${allureMavenVersion}</version>-->
-<!--            <scope>test</scope>-->
-<!--        </dependency>-->
+        
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>

@@ -1,7 +1,7 @@
 package weatherApiTests;
 
-import Utils.EndPoints;
-import io.qameta.allure.Description;
+import io.qameta.allure.*;
+import utils.EndPoints;
 import io.restassured.response.Response;
 import org.testng.annotations.*;
 import org.slf4j.Logger;
@@ -10,6 +10,9 @@ import org.slf4j.LoggerFactory;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
+
+@Epic("API tests for testWeather project")
+@Feature("Request parameters verification")
 
 public class RequestParametersTest {
 
@@ -23,21 +26,22 @@ public class RequestParametersTest {
     @DataProvider
     public Object[][] cityStateID() {
         return new Object[][]{
-                {"q", "London", "name", "London", "sys.country", "UA", "byCityRequest"},//"GB"
-                {"q", "London,uk", "name", "London", "sys.country", "GB", "ByCityStateRequest"},
-                {"q", "Gurzuf", "name", "Gurzuf", "sys.country", "UA", "byCityRequest"},
-                {"q", "Gurzuf,ua", "name", "Gurzuf", "sys.country", "UA", "ByCityStateRequest"},
-                {"q", "Kathmandu", "name", "Kathmandu", "sys.country", "NP", "ByCityRequest"},
-                {"q", "Kathmandu,np", "name", "Kathmandu", "sys.country", "NP", "ByCityStateRequest"},
-                {"id", "4294512", "name", "Henderson", "sys.country", "US", "byIdRequest"},
-                {"id", "2166166", "name", "Frankford", "sys.country", "AU", "byIdRequest"},
-                {"id", "6074096", "name", "Millertown", "sys.country", "UA", "byIdRequest"},//"CA"
+                {"q", "London", "name", "London", "sys.country", "UA", "basedOnCityRequest"},//"GB"
+                {"q", "London,uk", "name", "London", "sys.country", "GB", "basedOnCityAndStateRequest"},
+                {"q", "Gurzuf", "name", "Gurzuf", "sys.country", "UA", "basedOnCityRequest"},
+                {"q", "Gurzuf,ua", "name", "Gurzuf", "sys.country", "UA", "basedOnCityAndStateRequest"},
+                {"q", "Kathmandu", "name", "Kathmandu", "sys.country", "NP", "basedOnCityRequest"},
+                {"q", "Kathmandu,np", "name", "Kathmandu", "sys.country", "NP", "basedOnCityAndStateRequest"},
+                {"id", "4294512", "name", "Henderson", "sys.country", "US", "basedOnIdRequest"},
+                {"id", "2166166", "name", "Frankford", "sys.country", "AU", "basedOnIdRequest"},
+                {"id", "6074096", "name", "Millertown", "sys.country", "UA", "basedOnIdRequest"},//"CA"
         };
     }
 
 
-    @Test(dataProvider = "cityStateID", groups = "smoke", description = "Request test: Request is based on city, city&stats, id")
-    @Description("Test Description: send request based on city, city&stats, id")
+    @Test(dataProvider = "cityStateID", description = "Request test: Request is based on city, city&state, id")
+    @Description("Test Description: send {testDataDescription} with parameters {requestParam} = {requestParamValue}")
+    @Story("Request can be sent based on different parameters")
     public void byCityOrCityStateOrId(String requestParam, String requestParamValue, String responseCity,
                                       String responseCityValue, String responseState, String responseStateValue,
                                       String testDataDescription) {
@@ -60,15 +64,16 @@ public class RequestParametersTest {
     @DataProvider
     public Object[][] coordinates() {
         return new Object[][]{
-                {"lon", "7.88836", "lat", "43.85297", "name", "Pompeiana", "sys.country", "IT", "byCoordinatesRequest"},
-                {"lon", "6.84229", "lat", "46.266579", "name", "Chatels", "sys.country", "FR", "byCoordinatesRequest"},//"Chatel"
-                {"lon", "-2.72662", "lat", "40.625301", "name", "Duron", "sys.country", "ES", "byCoordinatesRequest"},
+                {"lon", "7.88836", "lat", "43.85297", "name", "Pompeiana", "sys.country", "IT", "basedOnCoordinatesRequest"},
+                {"lon", "6.84229", "lat", "46.266579", "name", "Chatels", "sys.country", "FR", "basedOnCoordinatesRequest"},//"Chatel"
+                {"lon", "-2.72662", "lat", "40.625301", "name", "Duron", "sys.country", "ES", "basedOnCoordinatesRequest"},
 
         };
     }
 
-    @Test(dataProvider = "coordinates", groups = "functional", description = "Request test: Request is based on coordinates")
-    @Description("Test description: send request based on coordinates")
+    @Test(dataProvider = "coordinates", description = "Request test: Request is based on coordinates")
+    @Description("Test description: send {testDataDescription} with longitude = {requestLonVal} and latitude = {requestLatVal}")
+    @Story("Request can be sent based on different parameters")
     public void byCoordinates(String requestLon, String requestLonVal, String requestLat, String requestLatVal,
                               String responseCity, String responseCityValue, String responseState, String responseStateValue,
                               String testDataDescription) {
