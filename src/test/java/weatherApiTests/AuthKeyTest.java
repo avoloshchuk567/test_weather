@@ -18,7 +18,7 @@ public class AuthKeyTest {
     private EndPoints endPoint1 = new EndPoints();
 
     private static final Logger LOG = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("com.testWeather.AuthKeyTest");
-    private static int expectedStatusCodeUnath = 401;
+    private static int expectedStatusCodeUnauth = 401;
     private static int expectedStatusCodeOk = 200;
     private static String requestParamBy = "q";
     private static String requestParamByValue = "London";
@@ -36,7 +36,7 @@ public class AuthKeyTest {
                 .when()
                 .get()
                 .then()
-                .statusCode(expectedStatusCodeUnath);
+                .statusCode(expectedStatusCodeUnauth);
 
         LOG.debug("Test: It's impossible to get data without APPID");
     }
@@ -44,9 +44,9 @@ public class AuthKeyTest {
     @DataProvider
     public Object[][] requestData() {
         return new Object[][]{
-                {null, expectedStatusCodeUnath, "verifyNullAppId"},
-                {"4t5gdg534df453", expectedStatusCodeUnath, "verifyIncorrectAppIdShorl"},
-                {"0b4a9150dfd5e34fc0d8afa2a8d1629f", expectedStatusCodeUnath, "verifyIncorrectAppIdFull"},
+                {null, expectedStatusCodeUnauth, "verifyNullAppId"},
+                {"4t5gdg534df453", expectedStatusCodeUnauth, "verifyIncorrectAppIdShort"},
+                {"0b4a9150dfd5e34fc0d8afa2a8d1629f", expectedStatusCodeUnauth, "verifyIncorrectAppIdFull"},
                 {"0b4a9150ecd5efe7c0d8afa2a8d1629e", expectedStatusCodeOk, "verifyValidAppId"}
 
         };
