@@ -13,7 +13,7 @@
         <seleniumJavaVersion>3.141.59</seleniumJavaVersion>
         <restAssuredAllVersion>4.2.0</restAssuredAllVersion>
         <jsonSchemaValidatorVersion>4.2.0</jsonSchemaValidatorVersion>
-        <testngVersion>6.14.3</testngVersion>
+        <testngVersion>7.7.0</testngVersion>
         <hamcrestAllVersion>1.3</hamcrestAllVersion>
         <restAssuredVersion>4.2.0</restAssuredVersion>
         <mavenCompileVersion>3.3</mavenCompileVersion>
